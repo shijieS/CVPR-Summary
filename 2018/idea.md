@@ -2,6 +2,21 @@
 
 > This is the summary of new ideas in CVPR 2018.  This summary is based on author. If you have different idea, ignore this summary and hold on your own idea.
 
+## Challenges
+
+- [EvalAI](http://evalai.cloudcv.org/)
+
+  - > EvalAI is an open-source web platform for organizing and participating in AI challenges. EvalAI = evaluating the state of the art in AI.
+
+  - ![1546524351806](img/1546524351806.png)
+
+- [VQA Challenge](https://visualqa.org/)
+
+  - > VQA is a new dataset containing open-ended questions about images. These
+    > questions require an understanding of vision, language and commonsense 
+    > knowledge to answer.
+
+  - ![1546524536960](img/1546524536960.png)
 
 
 ## Graph Generation Network
@@ -85,6 +100,15 @@
   - ![1546484512929](img/1546484512929.png)
   - ![1546484752284](img/1546484752284.png)
 
+## Trajectory Prediction
+
+> I think solving multiple object tracking contains: detection, matching, association and prediction.
+
+- Encoding Crowd Interaction with Deep Neural Network for Pedestrian Trajectory Prediction
+  - ![1546517250365](img/1546517250365.png)
+  - ![1546517263898](img/1546517263898.png)
+  - ![1546517308170](img/1546517308170.png)
+
 
 
 ## 3D Point Cloud Segmentation
@@ -106,6 +130,12 @@
 
   - ![1546505131211](img/1546505131211.png)
 
+  - ![1546505430686](img/1546505430686.png)
+
+## 3D Point Cloud Registration
+
+- Inverse Composition Discriminative Optimization for Point Cloud Registration
+  - ![1546525137105](img/1546525137105.png)
   - 
 
 ## 3D Point Cloud Reflection Removing
@@ -113,13 +143,21 @@
 - Reflection Removal for Large-Scale 3D Point Cloud
   - ![1546495473154](img/1546495473154.png)
   - ![1546495574950](img/1546495574950.png)
-  - 
 
 ## Human Pose Estimation & Tracking
 
 - PoseTrack: A Benchmark for Human Pose Estimation and Tracking [[dataset](https://posetrack.net/)]
   - ![1546485484337](img/1546485484337.png)
   - ![1546485523933](img/1546485523933.png)
+
+## Single Object Tracking
+
+- Efficient Diverse Ensemble for Discriminative Co-Tracking [[code](http://ishiilab.jp/member/meshgi-k/dedt.html)]
+
+  - ![1546523434608](img/1546523434608.png)
+
+  - ![1546523457537](img/1546523457537.png)
+
 
 ## Action Recognition
 
@@ -150,18 +188,15 @@
 ## 3D Face Reconstruction
 
 - Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition 
-
   - ![1546497975846](img/1546497975846.png)
   - ![1546498021526](img/1546498021526.png)
-
 - Alive Caricature from 2D to 3D [[dataset](https://github.com/QianyiWu/ Caricature-Data)]
-
   - ![1546503168789](img/1546503168789.png)
-
   - ![1546503328125](img/1546503328125.png)
-
   - ![1546503353548](img/1546503353548.png)
-
+- Extreme 3D Face Reconstruction: Seeing Through Occlusions [[code](github.com/anhttran/extreme_3d_faces)]
+  - ![1546524706759](img/1546524706759.png)
+  - ![1546524753922](img/1546524753922.png)
 
 ## Style Transfering
 
@@ -182,27 +217,68 @@
 ## Distort Recover
 
 - Distort-and-Recover: Color Enhancement using Deep Reinforcement Learning [[code](t https://sites.google.com/view/distort-and-recover/)]
+
   - ![1546496902232](img/1546496902232.png)
   - ![1546496933828](img/1546496933828.png)
+
 - Deep Video Super-Resolution Network Using Dynamic Upsampling Filters Without Explicit Motion Compensation [[code](https:// github.com/yhjo09/VSR-DUF), [dataset](https://media.xiph.org/video/derf/)]
+
   - ![1546497258838](img/1546497258838.png)
   - ![1546497233950](img/1546497233950.png)
   - ![1546497293210](img/1546497293210.png)
+
 - Missing Slice Recovery for Tensors Using a Low-rank Model in Embedded Space [[code](https://sites.google.com/site/yokotatsuya/ home/software)]
+
   - ![1546497572543](img/1546497572543.png)
 
-## Video Captioning
+- Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform [[code](http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/), [dataset](http://mmlab.ie.cuhk.edu.hk/projects/SFTGAN/)]
+
+  - ![1546521908899](img/1546521908899.png)
+  - ![1546521924643](img/1546521924643.png)
+
+- PhaseNet for Video Frame Interpolation [[video](https://www.youtube.com/watch?v=3zfV0Y7rwoQ)]
+
+  - > Video frame interpolation is a kind of distort recovery which recover the missing information.
+
+  - ![1546525385613](img/1546525385613.png)
+
+  - ![1546525423768](img/1546525423768.png)
+
+  - 
+
+## Captioning
 
 - Fine-grained Video Captioning for Sports Narrative 
+
   - ![1546493968656](img/1546493968656.png)
   - ![1546494002462](img/1546494002462.png)
 
-## Image Captioning
+- End-to-End Dense Video Captioning with Masked Transformer
+
+  - > Dense Video means **Untrimmed Video**
+
+  - ![1546518289378](img/1546518289378.png)
+
+  - ![1546518312474](img/1546518312474.png)
 
 - Neural Baby Talk [[code](https://github.com/jiasenlu/NeuralBabyTalk)]
   - ![1546501396381](img/1546501396381.png)
   - ![1546501506866](img/1546501506866.png)
   - ![1546501548865](img/1546501548865.png)       
+
+## Saliency
+
+> Video Saliency Detection is very important in pre-processing stage and can be applied widely.
+>
+> My ideas:
+>
+> - Saliency detection should combined with questions.
+> - Saliency detection seems to be helpful for object detection or segmentation.
+
+- Revisiting Video Saliency: A Large-scale Benchmark and a New Model [[code](https://github.com/wenguanwang/DHF1K), [dataset](https://github.com/wenguanwang/DHF1K)]
+  - ![1546518076632](img/1546518076632.png)
+  - ![1546518094195](img/1546518094195.png)
+  - 
 
 ## Visual Question Answering
 
@@ -229,8 +305,71 @@
 
   - ![1546500348460](img/1546500348460.png)
 
+- **Multi-Label Zero-Shot Learning with Structured Knowledge Graphs**
+
+  - >  A network for predicting multiple unseen class labels and **knowledge graphs**
+
+  - ![1546515738445](img/1546515738445.png)
+
+  - ![1546515804435](img/1546515804435.png)
+
+  - ![1546515898626](img/1546515898626.png)
+
+  - ![1546515948495](img/1546515948495.png)
+
+- **Transparency by Design: Closing the Gap Between Performance and Interpretability in Visual Reasoning** [[code](https://github.com/davidmascharka/tbd-nets), [dataset](http://cs.stanford.edu/people/jcjohns/clevr/)]
+
+  - ![1546522934380](img/1546522934380.png)
+  - ![1546523234505](img/1546523234505.png)
+
+- Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge [[VQT Challenge](https://visualqa.org/)]
+
+  - ![1546523989927](img/1546523989927.png)
+
+  - ![1546524022821](img/1546524022821.png)
+
+
 ## Frame Estimation
 
 - Globally Optimal Inlier Set Maximization for Atlanta Frame Estimation Kyungdon
   - ![1546501243852](img/1546501243852.png)
-  - 
+
+## 360 Videos Saliency Prediction
+
+- Cube Padding for Weakly-Supervised Saliency Prediction in 360◦ Videos
+  - ![1546507243854](img/1546507243854.png)
+  - ![1546507263590](img/1546507263590.png)
+  - ![1546507303396](img/1546507303396.png)
+
+## Extract Video Sequence from a Single Motion-Blurred Image
+
+> A single motion-blurred image contains the information of multiple motion frames. It's very interesting to extract multiple frames from it.
+
+- Learning to Extract a Video Sequence from a Single Motion-Blurred Image
+  - ![1546516230184](img/1546516230184.png)
+  - ![1546516347214](img/1546516347214.png)
+
+## Dynamic network
+
+> Dynamic network is the network which outputs different dimension or use different branch inner this network.
+>
+> My ideas:
+>
+> - Have a research on the branch selection. We can create a functional branch and do the transfer learning.
+> - Make the output dynamic
+
+- HydraNets: Specialized Dynamic Architectures for Efficient Inference
+
+  - ![1546516803332](img/1546516803332.png)
+
+  - ![1546516914934](img/1546516914934.png)
+
+
+## Ground-to-Aerial Geo-Localization
+
+> Mapping the Ground to the Satellite Map or opposite direction. Or extract more information from this mapping.
+
+- CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization
+  - ![1546518750248](img/1546518750248.png)
+  - ![1546521599730](img/1546521599730.png)
+  - ![1546521686488](img/1546521686488.png)
