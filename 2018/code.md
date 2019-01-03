@@ -1,6 +1,6 @@
 # This is the open source code published in CVPR
-1、Convolutional Neural Networks with Alternately Updated Clique
-     code: https://github.com/iboing/CliqueNet
+- Convolutional Neural Networks with Alternately Updated Clique ([code](https://github.com/iboing/CliqueNet))
+
 2、Person Transfer GAN to Bridge Domain Gap for Person Re-Identification
      code: https://github.com/JoinWei-PKU/PTGAN
 3、Wasserstein Introspective Neural Networks
