@@ -19,6 +19,12 @@
   - ![1546524536960](img/1546524536960.png)
 
 
+## My ideas
+
+- Video Frame Clustering 
+  - Clustering the video frames based on the viewpoint or action or  something else.
+  - The dataset can be selected from the action recognition dataset.
+
 ## Graph Generation Network
 
 > A deep learning network generates a graph which contains the node and edges.
@@ -28,6 +34,7 @@
   - Author create a dynamic network for solving matching problems
 - Some Related Work:
   - [GraphRNN: A Deep Generative Model for Graphs](https://duvenaud.github.io/learn-discrete/slides/graphrnn.pdf) ([Code](https://github.com/JiaxuanYou/graph-generation) [Paper](https://arxiv.org/pdf/1802.08773))
+- Using Compressed Video When do video understanding, such as video caption or action recognition.
 
 
 
@@ -56,11 +63,51 @@
 
   ![1546483372251](img/1546483372251.png)
 
+## Image Classification
+
+- Learning to Understand Image Blur
+  - ![1546570478435](img/1546570478435.png)
+  - ![1546570493966](img/1546570493966.png)
+
 ## Image Segmentation
 
 - DenseASPP for Semantic Segmentation in Street Scenes
   - ![1546499912432](img/1546499912432.png)
   - ![1546499988980](img/1546499988980.png)
+- Recurrent Pixel Embedding for Instance Grouping [[project](http://www.ics.uci.edu/~skong2/SMMMSG.html), [code](https://github.com/aimerykong/Recurrent-Pixel-Embedding-for-Instance-Grouping)]
+  - ![1546570188744](img/1546570188744.png)
+  - ![1546570262076](img/1546570262076.png)
+- Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation
+  - ![1546571946917](img/1546571946917.png)
+  - ![1546571975398](img/1546571975398.png)
+
+## Image Clustering
+
+> Clustering is similar with Classification. They have some difference:
+>
+> - Cluster is the unsupervised learning while classification is supervised learning
+> - Clustering is group similar instance based on the features while classification is assigning predefined tags to the instance.
+> - ![img](img/Difference-Between-Clustering-and-Classification-in-Tabular-Form.jpg) 
+
+- Dimensionality’s Blessing: Clustering Images by Underlying Distribution [[project](http://www.kind-of-works.com/source_code.html), [code](http://www.kind-of-works.com/code/Clustering_w_Nevlad.zip), [data](http://www.kind-of-works.com/images/release_data.zip)]
+  - ![1546563227033](img/1546563227033.png)
+  - ![1546563561641](img/1546563561641.png)
+
+## Image Compression
+
+- Learning Convolutional Networks for Content-weighted Image Compression [[project](http://www2.comp.polyu.edu.hk/~15903062r/content-weighted-image-compression.html), [code](https://github.com/limuhit/ImageCompression)]
+  - ![1546567936540](img/1546567936540.png)
+
+## Image Caption
+
+- Neural Baby Talk [[code](https://github.com/jiasenlu/NeuralBabyTalk)]
+  - ​	![1546501396381](img/1546501396381.png)
+  - ![1546501506866](img/1546501506866.png)
+  - ![1546501548865](img/1546501548865.png)
+- Unsupervised Textual Grounding: Linking Words to Image Concepts
+  - ![1546571629853](img/1546571629853.png)
+  - ![1546571647694](img/1546571647694.png)
+  - 
 
 ## RGB Object Detection
 
@@ -77,6 +124,12 @@
 - Progressively Complementarity-aware Fusion Network for RGB-D Salient Object Detection
   - ![1546484018647](img/1546484018647.png)
   - ![1546484061551](img/1546484061551.png)
+
+## Stereo Matching
+
+- **Zoom and Learn: Generalizing Deep Stereo Matching to Novel Domains**
+  - ![1546566399766](img/1546566399766.png)
+  - ![1546566434232](img/1546566434232.png)
 
 ## Face Recognition
 
@@ -180,6 +233,20 @@
   - ![1546498684216](img/1546498684216.png)
   - ![1546498711697](img/1546498711697.png)
 
+- Learning Latent Super-Events to Detect Multiple Activities in Videos
+
+  - ![1546565540258](img/1546565540258.png)
+  - ![1546565607745](img/1546565607745.png)
+  - ![1546565649874](img/1546565649874.png)
+
+- Compressed Video Action Recognition
+
+  - > Do Action Recognition on compressed video directly.
+
+  - ![1546571108115](img/1546571108115.png)
+
+  - 
+
 ## 3D Map Reconstruction
 
 - InLoc: Indoor Visual Localization with Dense Matching and View Synthesis [[code](http://www.ok.sc.e.titech.ac.jp/INLOC/), [dataset](http://www.ok.sc.e.titech.ac.jp/INLOC/)] 
@@ -244,9 +311,21 @@
 
   - ![1546525423768](img/1546525423768.png)
 
-  - 
+- Learning to Extract a Video Sequence from a Single Motion-Blurred Image
 
-## Captioning
+  - > A single motion-blurred image contains the information of multiple motion frames. It's very interesting to extract multiple frames from it.
+
+  - ![1546516230184](img/1546516230184.png)
+
+  - ![1546516347214](img/1546516347214.png)
+
+## Video Generation
+
+- **MoCoGAN: Decomposing Motion and Content for Video Generation** [[code](https://github.com/sergeytulyakov/mocogan)]
+  - ![TaiChi](https://github.com/sergeytulyakov/mocogan/raw/master/doc/taichi.gif)
+  - ![1546569569677](img/1546569569677.png)
+
+## Video Captioning
 
 - Fine-grained Video Captioning for Sports Narrative 
 
@@ -261,10 +340,15 @@
 
   - ![1546518312474](img/1546518312474.png)
 
-- Neural Baby Talk [[code](https://github.com/jiasenlu/NeuralBabyTalk)]
-  - ![1546501396381](img/1546501396381.png)
-  - ![1546501506866](img/1546501506866.png)
-  - ![1546501548865](img/1546501548865.png)       
+- **Bidirectional Attentive Fusion with Context Gating for Dense Video Captioning** [[project](https://cs.stanford.edu/people/ranjaykrishna/densevid/), [dataset](https://cs.stanford.edu/people/ranjaykrishna/densevid/captions.zip)]
+
+  - ![1546568972598](img/1546568972598.png)
+  - ![1546568990169](img/1546568990169.png)
+  - ![1546569019126](img/1546569019126.png)       
+
+- Neural Sign Language Translation Necati [[code](https://github.com/neccam/nslt), [dataset](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/)]
+  - ![1546571367693](img/1546571367693.png)
+  - ![1546571385676](img/1546571385676.png)
 
 ## Saliency
 
@@ -278,7 +362,10 @@
 - Revisiting Video Saliency: A Large-scale Benchmark and a New Model [[code](https://github.com/wenguanwang/DHF1K), [dataset](https://github.com/wenguanwang/DHF1K)]
   - ![1546518076632](img/1546518076632.png)
   - ![1546518094195](img/1546518094195.png)
-  - 
+- Progressive Attention Guided Recurrent Network for Salient Object Detection
+  - ![1546563676585](img/1546563676585.png)
+  - ![1546565256829](img/1546565256829.png)
+  - ![1546565301958](img/1546565301958.png)
 
 ## Visual Question Answering
 
@@ -341,14 +428,6 @@
   - ![1546507263590](img/1546507263590.png)
   - ![1546507303396](img/1546507303396.png)
 
-## Extract Video Sequence from a Single Motion-Blurred Image
-
-> A single motion-blurred image contains the information of multiple motion frames. It's very interesting to extract multiple frames from it.
-
-- Learning to Extract a Video Sequence from a Single Motion-Blurred Image
-  - ![1546516230184](img/1546516230184.png)
-  - ![1546516347214](img/1546516347214.png)
-
 ## Dynamic network
 
 > Dynamic network is the network which outputs different dimension or use different branch inner this network.
@@ -373,3 +452,26 @@
   - ![1546518750248](img/1546518750248.png)
   - ![1546521599730](img/1546521599730.png)
   - ![1546521686488](img/1546521686488.png)
+
+## Joint First and Third-Person Videos
+
+> First person videos and third person videos can get matched based on the provided information.
+>
+> My Ideas:
+>
+> - There are lots of dataset for this issues, such as Multiple View Object Tracking Dataset
+> - This is a new problems it needs more work. 
+
+- **Actor and Observer: Joint Modeling of First and Third-Person Videos** [[code](github.com/gsig/actor-observer)]
+  - ![1546566759644](img/1546566759644.png)
+  - ![1546566778671](img/1546566778671.png)
+  - ![1546566804424](img/1546566804424.png)
+  - ![1546566825562](img/1546566825562.png)
+
+## Reasoning Object Affordance
+
+- **Demo2Vec: Reasoning Object Affordances from Online Videos** [[dataset](https://github.com/StanfordVL/opra)]
+  - ![1546568212731](img/1546568212731.png)
+  - ![1546568233539](img/1546568233539.png)
+  - ![1546568301958](img/1546568301958.png)
+  - ![1546568331267](img/1546568331267.png)
