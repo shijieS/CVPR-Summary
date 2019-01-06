@@ -1,9 +1,5 @@
 # Dataset Summary
 
-[TOC]
-
-
-
 ## Old Datasets
 
 - [THUMOS14](www.baidu.com) 
