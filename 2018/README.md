@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Summary of CVPR2018
 
 > This folder is for the summary of CVPR 2018
@@ -30,3 +31,9 @@ We thanks the hard work of @shijieS, @instalionelr @zwtFighting .
 
 
 Besides, thanks the **V**ideo **A**nalysis Group (**VA**) in Chang'an University.
+=======
+# This is the summary of CVPR2018
+> This should be done after we finish code, dataset, idea.
+
+
+>>>>>>> master
