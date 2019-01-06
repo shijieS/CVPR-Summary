@@ -457,7 +457,7 @@
 ## Video Generation
 
 - **MoCoGAN: Decomposing Motion and Content for Video Generation** [[code](https://github.com/sergeytulyakov/mocogan)]
-  - ![TaiChi](https://github.com/sergeytulyakov/mocogan/raw/master/doc/taichi.gif)
+  - ![TaiChi](img/taichi.gif)
   - ![1546569569677](img/1546569569677.png)
 
 ## Video Captioning
