@@ -75,13 +75,13 @@ The File Structure is as follows:
 
 ## Contribution
 
-We thanks the hard work of @shijieS, @instalionelr @zwtFighting . 
+We thanks the hard work of [@shijieS](https://github.com/shijieS), [@instalionelr](https://github.com/instalionelr) [@zwtFighting](https://github.com/zwtFighting) . 
 
-@shijieS is responsible for the whole structure and **idea.md**
+[@shijieS](https://github.com/shijieS) is responsible for the whole structure and **idea.md**
 
-@instalionelr is responsible for the **dataset.md**
+[@instalionelr](https://github.com/instalionelr) is responsible for the **dataset.md**
 
-@zwtFighting is responsible for the **code.md**
+[@zwtFighting](https://github.com/zwtFighting) is responsible for the **code.md**
 
 
 
