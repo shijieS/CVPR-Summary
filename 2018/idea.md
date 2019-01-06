@@ -25,6 +25,21 @@
   - Clustering the video frames based on the viewpoint or action or  something else.
   - The dataset can be selected from the action recognition dataset.
 
+## Dataset
+
+- The iNaturalist Species Classification and Detection Dataset
+
+  - ![1546587706837](img/1546587706837.png)
+  - ![1546587746447](img/1546587746447.png)
+
+- WILDTRACK: A Multi-camera HD Dataset for Dense Unscripted Pedestrian Detection [[dataset](https://cvlab.epfl.ch/data/data-wildtrack/)]
+
+  - > My Ideas:
+    >
+    > - We can use this dataset for multiple object tracking.
+
+  - ![1546589369309](img/1546589369309.png)
+
 ## Graph Generation Network
 
 > A deep learning network generates a graph which contains the node and edges.
@@ -35,6 +50,7 @@
 - Some Related Work:
   - [GraphRNN: A Deep Generative Model for Graphs](https://duvenaud.github.io/learn-discrete/slides/graphrnn.pdf) ([Code](https://github.com/JiaxuanYou/graph-generation) [Paper](https://arxiv.org/pdf/1802.08773))
 - Using Compressed Video When do video understanding, such as video caption or action recognition.
+- Using RGB-D Camera to have a research on the stereo matching.
 
 
 
@@ -80,6 +96,10 @@
 - Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation
   - ![1546571946917](img/1546571946917.png)
   - ![1546571975398](img/1546571975398.png)
+- Weakly and Semi Supervised Human Body Part Parsing via Pose-Guided Knowledge Transfer
+  - ![1546587504391](img/1546587504391.png)
+  - ![1546587521935](img/1546587521935.png)
+  - ![1546587576880](img/1546587576880.png)
 
 ## Image Clustering
 
@@ -104,17 +124,30 @@
   - ​	![1546501396381](img/1546501396381.png)
   - ![1546501506866](img/1546501506866.png)
   - ![1546501548865](img/1546501548865.png)
+
 - Unsupervised Textual Grounding: Linking Words to Image Concepts
   - ![1546571629853](img/1546571629853.png)
   - ![1546571647694](img/1546571647694.png)
-  - 
 
-## RGB Object Detection
+- GroupCap: Group-based Image Captioning with Structured Relevance and Diversity Constraints
+
+  - ![1546587956058](img/1546587956058.png)
+  - ![1546587980275](img/1546587980275.png)
+  - ![1546588009215](img/1546588009215.png)
+
+
+## Image Object Detection
 
 - DeepVoting: A Robust and Explainable Deep Network for Semantic Part Detection under Partial Occlusion [[VehicleSemanticPart dataset](https://drive.google.com/file/d/1FU6Jw27yUj5XIVRt1Gj9z6Fb064wI3UE/view?usp=sharing)]
   - ![1546503772412](img/1546503772412.png)
   - ![1546504047693](img/1546504047693.png)
-  -  ![1546504577083](img/1546504577083.png)
+  - ![1546504577083](img/1546504577083.png)
+
+## Image Age Estimation
+
+- Deep Cost-Sensitive and Order-Preserving Feature Learning for Cross-Population Age Estimation
+  - ![1546586607984](img/1546586607984.png)
+  - ![1546586624218](img/1546586624218.png)
   - 
 
 ## RGB-D Object Detection
@@ -124,6 +157,13 @@
 - Progressively Complementarity-aware Fusion Network for RGB-D Salient Object Detection
   - ![1546484018647](img/1546484018647.png)
   - ![1546484061551](img/1546484061551.png)
+
+
+
+- DoubleFusion: Real-time Capture of Human Performances with Inner Body Shapes from a Single Depth Sensor
+  - ![1546590633930](img/1546590633930.png)
+  - ![1546590712023](img/1546590712023.png)
+  - ![1546590799865](img/1546590799865.png)
 
 ## Stereo Matching
 
@@ -136,7 +176,13 @@
 - Dynamic Feature Learning for Partial Face Recognition
   - ![1546500502426](img/1546500502426.png)
   - ![1546500529351](img/1546500529351.png)
-  - 
+
+## Face Alignment
+
+- Disentangling 3D Pose in A Dendritic CNN for Unconstrained 2D Face Alignment
+  - ![1546586483068](img/1546586483068.png)
+  - ![1546586499053](img/1546586499053.png)
+  - ![1546586523080](img/1546586523080.png)
 
 ## Scene Text Detection & Recognition
 
@@ -163,6 +209,12 @@
   - ![1546517308170](img/1546517308170.png)
 
 
+
+## Tracking Multiple Object
+
+- A Causal And-Or Graph Model for Visibility Fluent Reasoning in Tracking Interacting Objects [[project](https://cvlab.epfl.ch/research/research-surv/trackinteractobj/), [code](https://cvlab.epfl.ch/research/research-surv/trackinteractobj/), [dataset](https://cvlab.epfl.ch/research/research-surv/trackinteractobj/)]
+  - ![1546587351543](img/1546587351543.png)
+  - ![1546587329271](img/1546587329271.png)
 
 ## 3D Point Cloud Segmentation
 
@@ -208,8 +260,11 @@
 - Efficient Diverse Ensemble for Discriminative Co-Tracking [[code](http://ishiilab.jp/member/meshgi-k/dedt.html)]
 
   - ![1546523434608](img/1546523434608.png)
-
   - ![1546523457537](img/1546523457537.png)
+- Correlation Tracking via Joint Discrimination and Reliability Learning
+  - ![1546590362472](img/1546590362472.png)
+  - ![1546590394492](img/1546590394492.png)
+  - 
 
 
 ## Action Recognition
@@ -245,7 +300,16 @@
 
   - ![1546571108115](img/1546571108115.png)
 
-  - 
+- PoTion: Pose MoTion Representation for Action Recognition Vasileios
+
+  - ![1546586789383](img/1546586789383.png)
+  - ![1546586827875](img/1546586827875.png)
+
+- One-shot Action Localization by Learning Sequence Matching Network
+
+  - ![1546587828489](img/1546587828489.png)
+  - ![1546587842568](img/1546587842568.png)
+  - ![1546587868863](img/1546587868863.png)
 
 ## 3D Map Reconstruction
 
@@ -265,6 +329,13 @@
   - ![1546524706759](img/1546524706759.png)
   - ![1546524753922](img/1546524753922.png)
 
+## 3D Object Reconstruction
+
+- Im2Struct: Recovering 3D Shape Structure from a Single RGB Image
+  - ![1546584443005](img/1546584443005.png)
+  - ![1546584486828](img/1546584486828.png)
+  - ![1546584828681](img/1546584828681.png)
+
 ## Style Transfering
 
 - Learning to Sketch with Shortcut Cycle Consistency 
@@ -280,6 +351,12 @@
   - ![1546496413870](img/1546496413870.png)
   - ![1546496527002](img/1546496527002.png)
   - ![1546496609793](img/1546496609793.png)
+
+- Translating and Segmenting Multimodal Medical Volumes with Cycle- and Shape-Consistency Generative Adversarial Network
+
+  - ![1546588790063](img/1546588790063.png)
+  - ![1546588809193](img/1546588809193.png)
+  - ![1546588833156](img/1546588833156.png)
 
 ## Distort Recover
 
@@ -318,6 +395,16 @@
   - ![1546516230184](img/1546516230184.png)
 
   - ![1546516347214](img/1546516347214.png)
+
+- Crafting a Toolchain for Image Restoration by Deep Reinforcement Learning [[code](https://github.com/yuke93/RL-Restore), ]
+
+  - ![img](img/framework.png)
+  - ![img](http://mmlab.ie.cuhk.edu.hk/projects/RL-Restore/support/restore.gif)
+
+- Learning Dual Convolutional Neural Networks for Low-Level Vision Jinshan
+
+  - ![1546589011455](img/1546589011455.png)
+  - ![1546589052425](img/1546589052425.png)
 
 ## Video Generation
 
@@ -475,3 +562,39 @@
   - ![1546568233539](img/1546568233539.png)
   - ![1546568301958](img/1546568301958.png)
   - ![1546568331267](img/1546568331267.png)
+
+## Fundamental Structured Network
+
+- **Learning Time/Memory-Efficient Deep Architectures with Budgeted Super Networks** [[code](https://github.com/TomVeniat/bsn)]
+  - ![1546577928464](img/1546577928464.png)
+  - ![1546577958258](img/1546577958258.png)
+  - ![1546578009218](img/1546578009218.png)
+  - ![1546578037589](img/1546578037589.png)
+
+- In-Place Activated BatchNorm for Memory-Optimized Training of DNNs [[code](https://github.com/ mapillary/inplace_abn)]
+
+- Recurrent Residual Module for Fast Inference in Videos
+
+  - ![1546588629165](img/1546588629165.png)
+
+- **NAG: Network for Adversary Generation** [[code](https://github.com/val-iisc/nag)]
+
+  - > This work is an attempt to explore the manifold of perturbations that 
+    > can cause CNN based classifiers to behave absurdly. At present, this 
+    > repository provides the facility to train the generator that can produce
+    > perturbations to fool VGG F, VGG 16, VGG 19, GoogleNet, CaffeNet, 
+    > ResNet 50, ResNet 152.
+
+  - ![img](img/nag.png)
+
+- Non-local Neural Networks [[code](https://github.com/titu1994/keras-non-local-nets.git)]
+
+  - ![1546590065781](img/1546590065781.png)
+  - ![1546590081842](img/1546590081842.png)
+
+## Sound Source Localization
+
+- Learning to Localize Sound Source in Visual Scenes
+  - ![1546588205767](img/1546588205767.png)
+  - ![1546588218619](img/1546588218619.png)
+  - ![1546588262717](img/1546588262717.png)
