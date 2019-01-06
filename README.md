@@ -91,3 +91,18 @@ In order to do summary orderly, we use the following file structure.  There are 
 | CVPR 2018 | idea.md    | 2018.01~ | Doing |
 | CVPR 2018 | dataset.md | 2018.01~ | Doing |
 
+## Contributions
+
+### CVPR2018
+
+We thanks the hard work of @shijieS, @instalionelr @zwtFighting . 
+
+@shijieS is responsible for the whole structure and **idea.md**
+
+@instalionelr is responsible for the **dataset.md**
+
+@zwtFighting is responsible for the **code.md**
+
+
+
+Besides, thanks the **V**ideo **A**nalysis Group (**VA**) in Chang'an University.
